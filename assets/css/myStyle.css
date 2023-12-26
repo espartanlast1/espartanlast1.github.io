@@ -47,6 +47,8 @@ p {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 2px;
     padding: 3px 0;
+    margin: 10px;
+    align-items: stretch;
 }
 
 .language {

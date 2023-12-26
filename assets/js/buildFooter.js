@@ -45,25 +45,27 @@ function buildFooter() {
 
 function adjustFooterPosition() {
     var footer = document.querySelector('.footerF');
-    var bodyHeight = document.body.scrollHeight;
-    var viewportHeight = window.innerHeight;
+    if (footer) { // Check if the footer exists
+        var bodyHeight = document.body.scrollHeight;
+        var viewportHeight = window.innerHeight;
 
-    if (bodyHeight <= viewportHeight) {
-        footer.style.position = 'absolute';
-        footer.style.bottom = '0';
-        footer.style.width = '100%';
-    } else {
-        footer.style.position = 'relative';
-        footer.style.bottom = 'auto';
+        if (bodyHeight <= viewportHeight) {
+            footer.style.position = 'absolute';
+            footer.style.bottom = '0';
+            footer.style.width = '100%';
+        } else {
+            footer.style.position = 'relative';
+            footer.style.bottom = 'auto';
+        }
     }
 }
 
-// Call the function to build and append the footer when the window loads
-window.onload = buildFooter;
-window.onload = adjustFooterPosition;
+// Ensure the DOM is fully loaded before executing the script
+document.addEventListener('DOMContentLoaded', function() {
+    buildFooter();
+    adjustFooterPosition();
+});
 
-
-// Call the function to adjust the footer position when the window resizes
+// Update footer position on resize and scroll
 window.addEventListener('resize', adjustFooterPosition);
-window.addEventListener('scroll', adjustFooterPosition)
-window.addEventListener('load', adjustFooterPosition)
+window.addEventListener('scroll', adjustFooterPosition);
