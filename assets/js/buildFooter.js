@@ -34,10 +34,6 @@ function buildFooter() {
         link.appendChild(img);
         mediaDiv.appendChild(link);
 
-        const p = document.createElement('p');
-        p.textContent = media.name;
-        mediaDiv.appendChild(p);
-
         socialMediaFlexbox.appendChild(mediaDiv);
     });
 
