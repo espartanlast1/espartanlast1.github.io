@@ -58,10 +58,12 @@ function adjustFooterPosition() {
     }
 }
 
-window.addEventListener('resize', adjustFooterPosition);
-window.addEventListener('scroll', adjustFooterPosition)
-window.addEventListener('load', adjustFooterPosition)
-
 // Call the function to build and append the footer when the window loads
 window.onload = buildFooter;
 window.onload = adjustFooterPosition;
+
+
+// Call the function to adjust the footer position when the window resizes
+window.addEventListener('resize', adjustFooterPosition);
+window.addEventListener('scroll', adjustFooterPosition)
+window.addEventListener('load', adjustFooterPosition)
