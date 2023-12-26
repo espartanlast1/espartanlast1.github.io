@@ -12,7 +12,7 @@ body, html{
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: var(--snow);
+    background: var(--dusty_grey);
     color: #333;
     line-height: 1.6;
 }
@@ -27,19 +27,23 @@ h1 {
 
 h2 {
     color: var(--gluon_grey);
+    text-align: center;
 }
 
 /* Main paragraph styling */
 p {
     font-size: 18px;
+    text-align: justify;
+    justify-self: center;
 }
 
 /* Flexbox for Language Icons */
 #language-flexbox {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 2px;
     padding: 3px 0;
+    grid-auto-flow: column;
 }
 
 .language {
@@ -48,11 +52,8 @@ p {
     margin: 2px;
     text-align: center;
     width: calc(33.333% - 40px);
+    border-radius: 5px;
 }
-
-.language.small { width: 20%; }
-.language.medium { width: 30%; }
-.language.large { width: 40%; }
 
 .language img {
     max-width: 100%;
@@ -64,6 +65,10 @@ p {
     margin: 0;
     font-weight: bold;
     color: var(--snow);
+}
+
+.footerF{
+    text-align: center;
 }
 
 #social-media-flexbox {
@@ -78,7 +83,6 @@ p {
 
 .social-media img {
     max-width: 100px;
-    border-radius: 50%;
 }
 
 .social-media p {

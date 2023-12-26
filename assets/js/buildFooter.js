@@ -30,8 +30,6 @@ function buildFooter() {
         const img = document.createElement('img');
         img.src = media.icon;
         img.alt = `${media.name}`;
-        img.width = 100;
-        img.height = 100;
 
         link.appendChild(img);
         mediaDiv.appendChild(link);
