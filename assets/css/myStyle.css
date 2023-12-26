@@ -17,7 +17,42 @@ body, html{
     line-height: 1.6;
 }
 
-/* Header Styling */
+
+/* Header */
+header {
+    background-color: var(--dusty_grey);
+    border-radius: 14px;
+    padding: 2px;
+    margin: 20px 120px 0;
+}
+
+.flexbox-container-header {
+    margin: 0 20px;
+    display: flex;
+    border-radius: 14px;
+    justify-content: space-between;
+}
+
+.flexbox-container-logo {
+    display: flex;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.flexbox-spacer {
+    flex-grow: 1;
+}
+
+#header-title {
+    margin-left: 10px;
+}
+/* Finish Header */
+
+
+
 h1 {
     color: var(--gluon_grey);
     padding: 20px 0;
@@ -60,7 +95,7 @@ p {
     border: 1px solid #ddd;
     margin: 2px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .language img {
