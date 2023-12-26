@@ -109,7 +109,6 @@ p {
     grid-gap: 2px;
     padding: 3px 0;
     margin: 10px;
-    width: 60%;
     align-items: stretch;
     text-align: center;
     align-self: center;
@@ -142,6 +141,7 @@ p {
 }
 
 .footerF{
+    margin-top: 5%;
     text-align: center;
 }
 
