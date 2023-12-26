@@ -30,6 +30,10 @@ h2 {
     text-align: center;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* Main paragraph styling */
 p {
     font-size: 18px;
@@ -51,19 +55,19 @@ p {
     border: 1px solid #ddd;
     margin: 2px;
     text-align: center;
-    width: calc(33.333% - 40px);
     border-radius: 5px;
 }
 
 .language img {
     max-width: 100%;
+    margin: 10px;
     display: block;
-    margin: 0 auto 10px;
 }
 
 .language p {
     margin: 0;
     font-weight: bold;
+    text-align: center;
     color: var(--snow);
 }
 
