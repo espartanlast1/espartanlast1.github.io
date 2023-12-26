@@ -88,6 +88,9 @@ h3 {
 }
 
 .text-center {
+    display: flow;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
