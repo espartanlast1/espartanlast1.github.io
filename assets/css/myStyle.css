@@ -99,6 +99,7 @@ p {
     font-size: 18px;
     text-align: justify;
     justify-self: center;
+    margin: 20px;
 }
 
 /* Flexbox for Language Icons */
