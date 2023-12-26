@@ -4,11 +4,6 @@ function buildFooter() {
     const footer = document.createElement('footer');
     footer.classList.add('footerF');
 
-    // Create and append the title
-    const title = document.createElement('h3');
-    title.textContent = 'Link to my social media';
-    footer.appendChild(title);
-
     // Define social media links and icons
     const socialMedias = [
         { name: 'LinkedIn', url: 'https://www.linkedin.com/in/jorge-castilla-coello-786713282/', icon: 'assets/images/linkedin.svg' },

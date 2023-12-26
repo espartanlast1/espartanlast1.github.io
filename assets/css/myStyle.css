@@ -83,7 +83,7 @@ p {
 
 #social-media-flexbox {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 20px 0;
 }
 
