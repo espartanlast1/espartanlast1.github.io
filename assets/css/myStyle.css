@@ -99,7 +99,7 @@ p {
     font-size: 18px;
     text-align: justify;
     justify-self: center;
-    margin: 20%;
+    margin: 10px 17%;
 }
 
 /* Flexbox for Language Icons */
@@ -112,6 +112,7 @@ p {
     width: 60%;
     align-items: stretch;
     text-align: center;
+    align-self: center;
 }
 
 .language {
