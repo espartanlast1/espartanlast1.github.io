@@ -43,5 +43,25 @@ function buildFooter() {
     document.body.appendChild(footer);
 }
 
+function adjustFooterPosition() {
+    var footer = document.querySelector('.footerF');
+    var bodyHeight = document.body.scrollHeight;
+    var viewportHeight = window.innerHeight;
+
+    if (bodyHeight <= viewportHeight) {
+        footer.style.position = 'absolute';
+        footer.style.bottom = '0';
+        footer.style.width = '100%';
+    } else {
+        footer.style.position = 'relative';
+        footer.style.bottom = 'auto';
+    }
+}
+
+window.addEventListener('resize', adjustFooterPosition);
+window.addEventListener('scroll', adjustFooterPosition)
+window.addEventListener('load', adjustFooterPosition)
+
 // Call the function to build and append the footer when the window loads
 window.onload = buildFooter;
+window.onload = adjustFooterPosition;

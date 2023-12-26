@@ -50,10 +50,10 @@ p {
 }
 
 .language {
-    display: flow;
+    display: flex; /* changed from flow to flex */
     justify-content: center;
     align-items: center;
-    flex-flow: column;
+    flex-direction: column; /* ensures items are stacked vertically */
     background: var(--dusty_grey);
     border: 1px solid #ddd;
     margin: 2px;
@@ -63,8 +63,8 @@ p {
 
 .language img {
     max-width: 100%;
-    align-self: center;
-    margin: 10px;
+    align-self: center; /* should work with flex container */
+    margin: 10px 0; /* adjusted margin */
     display: block;
 }
 
