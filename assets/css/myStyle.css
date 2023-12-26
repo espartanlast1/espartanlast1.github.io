@@ -1,0 +1,93 @@
+:root {
+    --dark_void: #151419;
+    --liquid_lava: #F56E0F;
+    --dusty_grey: #878787;
+    --gluon_grey: #1B1B1E;
+    --slate_grey: #262626;
+    --snow: #FBFBFB;
+}
+
+/* General Body Styling */
+body, html{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--snow);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+h1 {
+    color: var(--gluon_grey);
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: var(--gluon_grey);
+}
+
+/* Main paragraph styling */
+p {
+    font-size: 18px;
+}
+
+/* Flexbox for Language Icons */
+#language-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.language {
+    background: var(--gluon_grey);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    width: calc(33.333% - 40px);
+}
+
+.language img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.language p {
+    margin: 0;
+    font-weight: bold;
+}
+
+#social-media-flexbox {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.social-media {
+    margin: 0 10px;
+}
+
+.social-media img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.social-media p {
+    color: #fff;
+}
+
+/* Link styling */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--liquid_lava);
+}

@@ -13,7 +13,7 @@ function buildFooter() {
     const socialMedias = [
         { name: 'LinkedIn', url: 'https://www.linkedin.com/in/jorge-castilla-coello-786713282/', icon: 'assets/images/linkedin.svg' },
         { name: 'Twitter', url: 'https://twitter.com/JorgeJCCoello', icon: 'assets/images/x.svg' }, // Add your Twitter link
-        { name: 'Github', url: '', icon: 'https://github.com/espartanlast1' } // Add your Github link
+        { name: 'Github', url: 'https://github.com/espartanlast1', icon: 'assets/images/github.svg' } // Add your Github link
     ];
 
     // Create and append social media links
