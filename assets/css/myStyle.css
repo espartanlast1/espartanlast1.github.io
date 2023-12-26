@@ -77,7 +77,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-h2 h3 {
+h2, h3 {
     color: var(--gluon_grey);
     text-align: center;
     font-size: 25px;
@@ -99,7 +99,7 @@ p {
     font-size: 18px;
     text-align: justify;
     justify-self: center;
-    margin: 20px;
+    margin: 20%;
 }
 
 /* Flexbox for Language Icons */
@@ -111,6 +111,7 @@ p {
     margin: 10px;
     width: 60%;
     align-items: stretch;
+    text-align: center;
 }
 
 .language {
