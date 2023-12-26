@@ -1,33 +1,55 @@
+// Function to toggle the menu visibility
+function toggleMenu() {
+    const menuLinks = document.getElementById('menulinks');
+    menuLinks.classList.toggle('active');
+}
+
 // Function to create and return a navigation link
 function createNavLink(href, text) {
-    let listItem = document.createElement('li');
-    let link = document.createElement('a');
+    const link = document.createElement('a');
     link.href = href;
     link.textContent = text;
-    listItem.appendChild(link);
-    return listItem;
+    return link;
 }
 
 // Function to build the header
 function buildHeader() {
     // Create the main container elements
     const header = document.createElement('header');
-    const flexboxContainerHeader = document.createElement('div');
-    flexboxContainerHeader.className = 'flexbox-container-header';
+    header.className = 'header sticky';
 
-    // Main navigation
-    const nav1 = document.createElement('nav');
-    const ul1 = document.createElement('ul');
-    ul1.appendChild(createNavLink("index.php", "Inicio"));
-    ul1.appendChild(createNavLink("donation-main.php", "Donación"));
-    ul1.appendChild(createNavLink("contact.php", "Contacto"));
-    ul1.appendChild(createNavLink("about-us.php", "Sobre nosotros"));
-    nav1.appendChild(ul1);
+    const headerDiv = document.createElement('div');
+    headerDiv.className = 'header-div';
 
+    // Name/Title part
+    const headerName = document.createElement('div');
+    headerName.className = 'header-name-left';
+    const nameLink = createNavLink("#", "Jorge Castilla");
+    headerName.appendChild(nameLink);
+
+    // Menu toggle button
+    const headerMenu = document.createElement('div');
+    headerMenu.className = 'header-menu';
+    headerMenu.setAttribute('onclick', 'toggleMenu()');
+    for (let i = 0; i < 3; i++) {
+        const bar = document.createElement('div');
+        headerMenu.appendChild(bar);
+    }
+
+    // Navigation links
+    const menuLinks = document.createElement('div');
+    menuLinks.id = 'menulinks';
+    menuLinks.className = 'header-links';
+    menuLinks.appendChild(createNavLink("#start", "Home"));
+    menuLinks.appendChild(createNavLink("#about", "About"));
+    // menuLinks.appendChild(createNavLink("#projects", "Projects")); // Uncomment if needed
+    menuLinks.appendChild(createNavLink("#contact", "Contact"));
 
     // Assemble the header
-    flexboxContainerHeader.appendChild(nav1);
-    header.appendChild(flexboxContainerHeader);
+    headerDiv.appendChild(headerName);
+    headerDiv.appendChild(headerMenu);
+    headerDiv.appendChild(menuLinks);
+    header.appendChild(headerDiv);
 
     // Append the header to the body or a specific element
     document.body.insertBefore(header, document.body.firstChild);
