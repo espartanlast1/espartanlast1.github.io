@@ -19,13 +19,14 @@ body, html{
 
 /* Header */
 .header{
-    background-color: var(--dusty_grey);
+    background-color: var(--snow);
     color: var(--liquid_lava);
     margin: auto;
     height: 100px;
     font-size: 30px;
     font-weight: 900;
     text-decoration: none;
+    border-bottom: var(--dusty_grey) 2px solid;
 }
 
 .header-div{
@@ -76,9 +77,14 @@ h1 {
     margin-bottom: 20px;
 }
 
-h2 {
+h2 h3 {
     color: var(--gluon_grey);
     text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 .text-center {
@@ -95,10 +101,11 @@ p {
 /* Flexbox for Language Icons */
 #language-flexbox {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 2px;
     padding: 3px 0;
     margin: 10px;
+    width: 60%;
     align-items: stretch;
 }
 
