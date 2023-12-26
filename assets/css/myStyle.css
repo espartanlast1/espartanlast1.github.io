@@ -16,6 +16,15 @@ body, html{
     line-height: 1.6;
 }
 
+/* Link styling */
+a {
+    color: var(--liquid_lava);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--liquid_lava);
+}
 
 /* Header */
 .header{
@@ -108,7 +117,7 @@ p {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2px;
     padding: 3px 0;
-    margin: 10px;
+    margin: 10px 20%;
     align-items: stretch;
     text-align: center;
     align-self: center;
@@ -141,7 +150,7 @@ p {
 }
 
 .footerF{
-    margin-top: 5%;
+    margin-top: 2%;
     text-align: center;
 }
 
@@ -156,15 +165,5 @@ p {
 }
 
 .social-media img {
-    max-width: 25px;
-}
-
-/* Link styling */
-a {
-    color: #333;
-    text-decoration: none;
-}
-
-a:hover {
-    color: var(--liquid_lava);
+    max-width: 30px;
 }

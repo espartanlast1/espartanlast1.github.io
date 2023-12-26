@@ -24,7 +24,7 @@ function buildHeader() {
     // Name/Title part
     const headerName = document.createElement('div');
     headerName.className = 'header-name-left';
-    const nameLink = createNavLink("#", "Jorge Castilla");
+    const nameLink = createNavLink("#", "Jorge JC. Coello");
     headerName.appendChild(nameLink);
 
     // Menu toggle button
