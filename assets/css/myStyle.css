@@ -36,21 +36,23 @@ p {
 
 /* Flexbox for Language Icons */
 #language-flexbox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2px;
+    padding: 3px 0;
 }
 
 .language {
     background: var(--gluon_grey);
     border: 1px solid #ddd;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    padding: 20px;
+    margin: 2px;
     text-align: center;
     width: calc(33.333% - 40px);
 }
+
+.language.small { width: 20%; }
+.language.medium { width: 30%; }
+.language.large { width: 40%; }
 
 .language img {
     max-width: 100%;
@@ -61,6 +63,7 @@ p {
 .language p {
     margin: 0;
     font-weight: bold;
+    color: var(--snow);
 }
 
 #social-media-flexbox {
