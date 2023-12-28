@@ -41,7 +41,7 @@ function buildHeader() {
     menuLinks.id = 'menulinks';
     menuLinks.className = 'header-links';
     menuLinks.appendChild(createNavLink("#start", "Home"));
-    menuLinks.appendChild(createNavLink("#about", "About"));
+    menuLinks.appendChild(createNavLink("about.html", "About"));
     // menuLinks.appendChild(createNavLink("#projects", "Projects")); // Uncomment if needed
     menuLinks.appendChild(createNavLink("#contact", "Contact"));
 
