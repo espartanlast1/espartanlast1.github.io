@@ -7,6 +7,17 @@
     --snow: #FBFBFB;
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --dark_void: #FBFBFB; /* Snow */
+        --liquid_lava: #F56E0F; /* Liquid Lava stays the same */
+        --dusty_grey: #262626; /* Slate Grey */
+        --gluon_grey: #878787; /* Dusty Grey */
+        --slate_grey: #1B1B1E; /* Gluon Grey */
+        --snow: #151419; /* Dark Void */
+    }
+}
+
 /* General Body Styling */
 body, html{
     font-family: 'Arial', sans-serif;
