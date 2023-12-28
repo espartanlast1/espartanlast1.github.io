@@ -3,7 +3,7 @@
 
 const socialMedias = [
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/jorge-castilla-coello-786713282/', icon: 'assets/images/linkedin.svg', darkIcon: 'assets/images/linkedin.svg' },
-    { name: 'Twitter', url: 'https://twitter.com/JorgeJCCoello', icon: 'assets/images/x.svg', darkIcon: 'assets/images/x-white.svg' }, // Add your Twitter link
+    { name: 'Twitter', url: 'https://twitter.com/JorgeJCCoello', icon: 'assets/images/x.svg', darkIcon: 'assets/images/x.svg' }, // Add your Twitter link
     { name: 'Github', url: 'https://github.com/espartanlast1', icon: 'assets/images/github.svg', darkIcon: 'assets/images/github-white.svg' } // Add your Github link
 ];
 
