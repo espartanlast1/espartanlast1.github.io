@@ -111,6 +111,12 @@ p {
     margin: 10px 17%;
 }
 
+.text_image_page{
+    float: left;
+    margin: 10px 17px 10px 17%;
+    width: 25%;
+}
+
 /* Flexbox for Language Icons */
 #language-flexbox {
     display: grid;

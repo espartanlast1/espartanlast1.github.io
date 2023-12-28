@@ -40,7 +40,7 @@ function buildHeader() {
     const menuLinks = document.createElement('div');
     menuLinks.id = 'menulinks';
     menuLinks.className = 'header-links';
-    menuLinks.appendChild(createNavLink("#start", "Home"));
+    menuLinks.appendChild(createNavLink("#index.html", "Home"));
     menuLinks.appendChild(createNavLink("about.html", "About"));
     // menuLinks.appendChild(createNavLink("#projects", "Projects")); // Uncomment if needed
     menuLinks.appendChild(createNavLink("#contact", "Contact"));
