@@ -120,6 +120,7 @@ p {
     text-align: justify;
     justify-self: center;
     margin: 10px 17%;
+    color: var(--dark_void);
 }
 
 .text_image_page{
