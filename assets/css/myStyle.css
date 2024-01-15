@@ -59,6 +59,7 @@ a:hover {
 
 .header.sticky{
     position: sticky;
+    opacity: 90%;
     top: 0;
 }
 
