@@ -192,6 +192,13 @@ p {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+.grid_image {
+    max-width: 100%;
+    align-self: center; /* should work with flex container */
+    margin: 10px 0; /* adjusted margin */
+    display: block;
+}
+
 .footerF{
     margin-top: 2%;
     text-align: center;
