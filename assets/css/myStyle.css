@@ -168,6 +168,30 @@ p {
     color: var(--snow);
 }
 
+/* Flexbox for Projects */
+.three-images-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2px;
+    padding: 3px 0;
+    margin: 10px 20%;
+    align-items: stretch;
+    text-align: center;
+    align-self: center;
+}
+.grid-element-a {
+    display: flex; /* changed from flow to flex */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* ensures items are stacked vertically */
+    background: var(--dusty_grey);
+    border: 1px solid #ddd;
+    margin: 2px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
 .footerF{
     margin-top: 2%;
     text-align: center;
