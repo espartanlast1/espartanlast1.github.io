@@ -29,10 +29,10 @@ body, html{
 
 body{
     background-image: url("https://raw.githubusercontent.com/espartanlast1/espartanlast1.github.io/main/assets/images/my_images/background.png");
-    background-repeat: repeat-y;
     background-position: center center;
     background-size: cover;
-    position: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 /* Link styling */
