@@ -25,7 +25,7 @@ body, html{
     padding: 0;
     background: var(--snow);
     line-height: 1.6;
-    background-image: url("assets/images/my_images/background.png");
+    background-image: url("https://raw.githubusercontent.com/espartanlast1/espartanlast1.github.io/main/assets/images/my_images/background.png");
 }
 
 /* Link styling */
