@@ -28,7 +28,7 @@ body, html{
 }
 
 body{
-    background-image: linear-gradient(rgba(var(--dark_void), 0.20), rgba(var(--dark_void), 0.20)), url("https://raw.githubusercontent.com/espartanlast1/espartanlast1.github.io/main/assets/images/my_images/background.png");
+    linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.40)), url("https://raw.githubusercontent.com/espartanlast1/espartanlast1.github.io/main/assets/images/my_images/background.png");
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
