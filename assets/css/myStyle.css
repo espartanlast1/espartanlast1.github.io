@@ -35,6 +35,18 @@ body{
     background-repeat: no-repeat;
 }
 
+.div-content{
+    background-color: rgba(27, 27, 30, 0.5);
+    margin: 2% 5%;
+    border-radius: 15px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .div-content{
+        background-color: rgba(135, 135, 135, 0.5);
+    }
+}
+
 /* Link styling */
 a {
     color: var(--liquid_lava);
