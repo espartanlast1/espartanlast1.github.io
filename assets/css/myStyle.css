@@ -39,6 +39,7 @@ body{
     background-color: rgba(27, 27, 30, 0.5);
     margin: 2% 5%;
     border-radius: 15px;
+    padding: 2%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -141,13 +142,13 @@ p {
     font-size: 18px;
     text-align: justify;
     justify-self: center;
-    margin: 10px 17%;
+    margin: 10px 7%;
     color: var(--dark_void);
 }
 
 .text_image_page{
     float: left;
-    margin: 10px 17px 10px 17%;
+    margin: 10px 17px 10px 7%;
     width: 25%;
 }
 
