@@ -36,15 +36,15 @@ body{
 }
 
 .div-content{
-    background-color: rgba(27, 27, 30, 0.5);
-    margin: 2% 5%;
+    background-color: rgba(27, 27, 30, 0.6);
+    margin: 2% 8%;
     border-radius: 15px;
     padding: 2%;
 }
 
 @media (prefers-color-scheme: dark) {
     .div-content{
-        background-color: rgba(135, 135, 135, 0.5);
+        background-color: rgba(135, 135, 135, 0.6);
     }
 }
 
@@ -142,13 +142,13 @@ p {
     font-size: 18px;
     text-align: justify;
     justify-self: center;
-    margin: 10px 7%;
+    margin: 10px 4%;
     color: var(--dark_void);
 }
 
 .text_image_page{
     float: left;
-    margin: 10px 17px 10px 7%;
+    margin: 10px 17px 10px 4%;
     width: 25%;
 }
 
