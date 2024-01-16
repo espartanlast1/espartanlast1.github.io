@@ -36,7 +36,7 @@ body{
 }
 
 .div-content{
-    background-color: rgba(27, 27, 30, 0.6);
+    background-color: rgba(135, 135, 135, 0.6);
     margin: 2% 8%;
     border-radius: 15px;
     padding: 2%;
@@ -44,7 +44,7 @@ body{
 
 @media (prefers-color-scheme: dark) {
     .div-content{
-        background-color: rgba(135, 135, 135, 0.6);
+        background-color: rgba(27, 27, 30, 0.6);
     }
 }
 
@@ -113,14 +113,14 @@ a:hover {
 
 
 h1 {
-    color: var(--gluon_grey);
+    color: var(--dark_void);
     padding: 20px 0;
     text-align: center;
     margin-bottom: 20px;
 }
 
 h2, h3 {
-    color: var(--gluon_grey);
+    color: var(--dark_void);
     text-align: center;
     font-size: 25px;
 }
